@@ -10,6 +10,10 @@ public class Main{
         tasks.add(new Task("Sports", Priority.MEDIUM));
         tasks.add(new Task("Shower", Priority.HIGH));
         tasks.sort();
+
+        for (Task task : tasks){
+            task.displayTask();
+        }
     }
 }
 
